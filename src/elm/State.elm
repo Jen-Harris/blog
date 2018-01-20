@@ -23,11 +23,20 @@ getRoute hash =
         "#home" ->
             HomeRoute
 
-        "#pageone" ->
-            PageOneRoute
+        "#design" ->
+            DesignRoute
 
-        "#pagetwo" ->
-            PageTwoRoute
+        "#hongKong" ->
+            HongKongRoute
+
+        "#sprint" ->
+            SprintRoute
+
+        "#founders" ->
+            FoundersRoute
+
+        "#portfolio" ->
+            PortfolioRoute
 
         _ ->
             HomeRoute
@@ -40,4 +49,4 @@ update msg model =
             ( { model | userInput = newInput }, Cmd.none )
 
         UrlChange location ->
-            ( { model | route = (getRoute location.hash) }, Cmd.none )
+            ( { model | route = getRoute location.hash }, Cmd.none )

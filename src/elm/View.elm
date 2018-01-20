@@ -1,15 +1,16 @@
 module View exposing (..)
 
-import Html exposing (..)
-
-
 -- My Elm Files
 
-import Types exposing (..)
+import Html exposing (..)
+import Routes.Design exposing (..)
+import Routes.Founders exposing (..)
 import Routes.Home exposing (..)
-import Routes.PageOne exposing (..)
-import Routes.PageTwo exposing (..)
+import Routes.HongKong exposing (..)
 import Routes.Navbar exposing (..)
+import Routes.Portfolio exposing (..)
+import Routes.Sprint exposing (..)
+import Types exposing (..)
 
 
 view : Model -> Html Msg
@@ -20,13 +21,22 @@ view model =
                 HomeRoute ->
                     home model
 
-                PageOneRoute ->
-                    pageOne model
+                DesignRoute ->
+                    design model
 
-                PageTwoRoute ->
-                    pageTwo model
+                HongKongRoute ->
+                    hongKong model
+
+                SprintRoute ->
+                    sprint model
+
+                FoundersRoute ->
+                    founders model
+
+                PortfolioRoute ->
+                    portfolio model
     in
-        div []
-            [ navbar model
-            , page
-            ]
+    div []
+        [ navbar model
+        , page
+        ]
