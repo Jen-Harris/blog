@@ -15,4 +15,12 @@ home model =
             , "I'm a UX/UI designer & developer and recent Hong Kong Expat."
             , "Welcome to my blog."
             )
+        , section [ class "db tc mv4 " ]
+            [ img [ src "./assets/mainHkImage.png", class "tc mw7-m ma4 dib w-90" ] []
+            , div [ class "bb b--gray w-50-m w-90 dib" ] []
+            ]
+        , section [ class "db tc mv4" ]
+            [ img [ src "./assets/mainDesignImage.png", class "tc mw7-m ma4 dib w-90" ] []
+            , div [ class "bb b--gray w-50-m w-90 dib" ] []
+            ]
         ]
