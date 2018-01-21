@@ -13,6 +13,7 @@ type Route
     | SprintRoute
     | FoundersRoute
     | PortfolioRoute
+    | MovingRoute
 
 
 type alias Model =

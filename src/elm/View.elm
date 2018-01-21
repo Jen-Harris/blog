@@ -8,6 +8,7 @@ import Routes.Design exposing (..)
 import Routes.Founders exposing (..)
 import Routes.Home exposing (..)
 import Routes.HongKong exposing (..)
+import Routes.Moving exposing (..)
 import Routes.Navbar exposing (..)
 import Routes.Portfolio exposing (..)
 import Routes.Sprint exposing (..)
@@ -36,6 +37,9 @@ view model =
 
                 PortfolioRoute ->
                     portfolio model
+
+                MovingRoute ->
+                    moving model
     in
     div []
         [ navbar model

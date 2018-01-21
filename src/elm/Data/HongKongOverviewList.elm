@@ -7,16 +7,9 @@ hongKongOverviewList : List ArticleOverview
 hongKongOverviewList =
     [ { post = "Hong Kong"
       , photo = "./assets/mainHkImage.png"
-      , title = "HK something"
+      , title = "Moving to Hong Kong"
       , date = "21.01.18"
-      , summary = "HKHKHK HK something blah blah blah blah asdj asiodj owj "
-      , route = "sprint"
-      }
-    , { post = "Hong Kong"
-      , photo = "./assets/mainDesignImage.png"
-      , title = "HK something blah blah blah blah asdj asiodj owj "
-      , date = "21.01.18"
-      , summary = "HKHKHK"
-      , route = "founders"
+      , summary = "It's actually happening. We're moving to Hong Kong."
+      , route = "moving"
       }
     ]

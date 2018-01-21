@@ -41,6 +41,9 @@ getRoute hash =
         "#founders" ->
             FoundersRoute
 
+        "#moving" ->
+            MovingRoute
+
         "#portfolio" ->
             PortfolioRoute
 
