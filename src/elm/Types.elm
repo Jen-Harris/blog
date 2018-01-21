@@ -28,10 +28,11 @@ type alias Model =
 
 type alias ArticleOverview =
     { post : String
-    , img : String
+    , photo : String
     , title : String
     , date : String
     , summary : String
+    , route : String
     }
 
 

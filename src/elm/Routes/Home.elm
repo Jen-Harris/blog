@@ -20,9 +20,9 @@ home model =
             [ a [ href "#hongKong" ] [ img [ src "./assets/mainHkImage.png", class "tc mw7-m ma4 dib w-90" ] [] ]
             , div [ class "bb b--gray w-50-m w-90 dib" ] []
             ]
-        , section [ class "db tc mv4" ]
+        , section [ class "db tc mt4" ]
             [ a [ href "#design" ] [ img [ src "./assets/mainDesignImage.png", class "tc mw7-m ma4 dib w-90" ] [] ]
-            , div [ class "bb b--gray w-50-m w-90 dib " ] []
+            , div [ class "bb b--gray w-75-m w-50-l w-90 dib " ] []
             ]
         , section []
             (List.map

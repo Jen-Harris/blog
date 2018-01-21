@@ -12,3 +12,10 @@ body {
 button {
   font-family: var(--sans-serif);
 }
+
+@media (--breakpoint-medium)
+{
+  .medium-article-image{
+    max-width: 16rem;
+  }
+}
