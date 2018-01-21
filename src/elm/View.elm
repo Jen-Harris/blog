@@ -2,6 +2,7 @@ module View exposing (..)
 
 -- My Elm Files
 
+import Components.Footer exposing (..)
 import Html exposing (..)
 import Routes.Design exposing (..)
 import Routes.Founders exposing (..)
@@ -39,4 +40,5 @@ view model =
     div []
         [ navbar model
         , page
+        , pageFooter model
         ]
