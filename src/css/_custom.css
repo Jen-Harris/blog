@@ -19,3 +19,15 @@ button {
     max-width: 16rem;
   }
 }
+
+.hkMain {
+  background: url("./assets/mainHkImage.png");
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.designMain {
+  background: url("./assets/mainDesignImage.png");
+   background-position: center;
+   background-repeat: no-repeat;
+}
