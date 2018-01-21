@@ -1,5 +1,6 @@
 module Routes.Home exposing (..)
 
+import Components.ArticleOverview exposing (..)
 import Components.Heading exposing (..)
 import Html exposing (..)
 import Html.Attributes exposing (..)
@@ -23,4 +24,9 @@ home model =
             [ a [ href "#design" ] [ img [ src "./assets/mainDesignImage.png", class "tc mw7-m ma4 dib w-90" ] [] ]
             , div [ class "bb b--gray w-50-m w-90 dib" ] []
             ]
+        , section []
+            (List.map
+                articleOverview
+                model.articles
+            )
         ]

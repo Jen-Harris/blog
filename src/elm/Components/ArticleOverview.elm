@@ -5,6 +5,10 @@ import Html.Attributes exposing (..)
 import Types exposing (..)
 
 
-articleOverview : ( String, String, String, String ) -> Html Msg
-articleOverview ( img, title, date, para ) =
-    div [] []
+articleOverview : ArticleOverview -> Html Msg
+articleOverview { post, img, title, date, summary } =
+    article []
+        [ text "img"
+        , text "title"
+        , text "date"
+        ]

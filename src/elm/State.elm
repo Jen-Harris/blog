@@ -1,5 +1,6 @@
 module State exposing (..)
 
+import Data.ArticleOverviewList exposing (..)
 import Types exposing (..)
 
 
@@ -10,6 +11,7 @@ initModel : Model
 initModel =
     { route = HomeRoute
     , userInput = ""
+    , articles = articleOverviewList
     }
 
 

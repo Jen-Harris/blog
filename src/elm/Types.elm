@@ -18,11 +18,21 @@ type Route
 type alias Model =
     { route : Route
     , userInput : String
+    , articles : List ArticleOverview
     }
 
 
 
 -- Update
+
+
+type alias ArticleOverview =
+    { post : String
+    , img : String
+    , title : String
+    , date : String
+    , summary : String
+    }
 
 
 type Msg
