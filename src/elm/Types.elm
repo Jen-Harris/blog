@@ -19,6 +19,8 @@ type alias Model =
     { route : Route
     , userInput : String
     , articles : List ArticleOverview
+    , hongKongArticles : List ArticleOverview
+    , designArticles : List ArticleOverview
     }
 
 

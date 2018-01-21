@@ -1,6 +1,8 @@
 module State exposing (..)
 
 import Data.ArticleOverviewList exposing (..)
+import Data.DesignOverviewList exposing (..)
+import Data.HongKongOverviewList exposing (..)
 import Types exposing (..)
 
 
@@ -12,6 +14,8 @@ initModel =
     { route = HomeRoute
     , userInput = ""
     , articles = articleOverviewList
+    , hongKongArticles = hongKongOverviewList
+    , designArticles = designOverviewList
     }
 
 
