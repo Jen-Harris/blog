@@ -7,7 +7,7 @@ import Types exposing (..)
 
 articleOverview : ArticleOverview -> Html Msg
 articleOverview { post, photo, title, date, summary, route } =
-    section [ class "w-75-m w-50-l  center bb b--gray pa4" ]
+    section [ class "w-75-m w-50-l w-80  center bb b--gray pa4" ]
         [ a [ href ("#" ++ route), class "no-underline black" ]
             [ article [ class "flex justify-around-ns flex-wrap justify-center" ]
                 [ div [ class "center" ] [ img [ src photo, class "mw5 medium-article-image" ] [] ]

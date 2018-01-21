@@ -10,11 +10,14 @@ import Types exposing (..)
 design : Model -> Html Msg
 design model =
     div []
-        [ headingComponent
-            ( "Design & Technology"
-            , "A collection of thoughts, advice and book reviews"
-            , ""
-            )
+        [ div [ class "bb b--gray w-100" ]
+            [ headingComponent
+                ( "Design & Technology"
+                , "A collection of thoughts, advice and book reviews"
+                , ""
+                )
+            ]
+        , h2 [ class "tc  fw4" ] [ text "Articles" ]
         , section []
             (List.map
                 articleOverview

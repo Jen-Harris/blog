@@ -36,6 +36,7 @@ home model =
                     ]
                 ]
             ]
+        , h2 [ class "tc  fw4" ] [ text "Recent Articles" ]
         , section []
             (List.map
                 articleOverview
