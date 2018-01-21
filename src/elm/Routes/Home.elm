@@ -22,7 +22,7 @@ home model =
             ]
         , section [ class "db tc mv4" ]
             [ a [ href "#design" ] [ img [ src "./assets/mainDesignImage.png", class "tc mw7-m ma4 dib w-90" ] [] ]
-            , div [ class "bb b--gray w-50-m w-90 dib" ] []
+            , div [ class "bb b--gray w-50-m w-90 dib " ] []
             ]
         , section []
             (List.map
