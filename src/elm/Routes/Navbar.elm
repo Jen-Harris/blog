@@ -7,7 +7,7 @@ import Types exposing (..)
 
 navbar : Model -> Html Msg
 navbar model =
-    ul [ class "dib ma0 w-100 pa2 bb b--gray" ]
+    ul [ class "dib ma0 w-100 pa2 bb b--gray fixed bg-white z-999" ]
         navbarContent
 
 
