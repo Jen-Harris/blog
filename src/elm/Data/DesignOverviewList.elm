@@ -9,7 +9,7 @@ designOverviewList =
       , photo = "./assets/foundersAndCoders.png"
       , title = "Founders & Coders"
       , date = "21.01.18"
-      , summary = "A summary of what Founders & Coders is and some FAQs answered"
+      , summary = "What is Founders and Coders? Why did I do it? Should you do it too?"
       , route = "founders"
       }
     ]
