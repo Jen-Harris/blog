@@ -3,6 +3,8 @@ module State exposing (..)
 import Data.ArticleOverviewList exposing (..)
 import Data.DesignOverviewList exposing (..)
 import Data.HongKongOverviewList exposing (..)
+import Dom.Scroll exposing (..)
+import Task exposing (..)
 import Types exposing (..)
 
 
@@ -58,4 +60,7 @@ update msg model =
             ( { model | userInput = newInput }, Cmd.none )
 
         UrlChange location ->
-            ( { model | route = getRoute location.hash }, Cmd.none )
+            ( { model | route = getRoute location.hash }, Task.attempt (always NoOp) (toTop "container") )
+
+        NoOp ->
+            ( model, Cmd.none )

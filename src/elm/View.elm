@@ -4,6 +4,7 @@ module View exposing (..)
 
 import Components.Footer exposing (..)
 import Html exposing (..)
+import Html.Attributes exposing (..)
 import Routes.Design exposing (..)
 import Routes.Founders exposing (..)
 import Routes.Home exposing (..)
@@ -41,7 +42,7 @@ view model =
                 MovingRoute ->
                     moving model
     in
-    div []
+    div [ class "w-100 fixed overflow-y-scroll top-0 bottom-0", id "container" ]
         [ navbar model
         , page
         , pageFooter model

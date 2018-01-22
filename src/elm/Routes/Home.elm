@@ -1,10 +1,11 @@
 module Routes.Home exposing (..)
 
+-- import Html.Events exposing (..)
+
 import Components.ArticleOverview exposing (..)
 import Components.Heading exposing (..)
 import Html exposing (..)
 import Html.Attributes exposing (..)
-import Html.Events exposing (..)
 import Types exposing (..)
 
 

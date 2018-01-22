@@ -40,5 +40,6 @@ type alias ArticleOverview =
 
 
 type Msg
-    = Change String
+    = NoOp
+    | Change String
     | UrlChange Navigation.Location
