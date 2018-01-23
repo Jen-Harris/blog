@@ -8,7 +8,7 @@ articleOverviewList =
     [ { post = "Hong Kong"
       , photo = "./assets/mainHkImage.png"
       , title = "Moving to Hong Kong"
-      , date = "21.01.18"
+      , date = "23.01.18"
       , summary = "It's actually happening. We're moving to Hong Kong."
       , route = "moving"
       }
