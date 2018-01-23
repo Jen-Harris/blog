@@ -13,4 +13,5 @@ headingComponent ( title, para1, para2 ) =
             [ text para1 ]
         , p [ class "f4 w50 mh1 tc fw1 pb5" ]
             [ text para2 ]
+        , div [ class "tc center" ] [ img [ src "./assets/downArrow.png", class "tc center mw2 mb0" ] [] ]
         ]
