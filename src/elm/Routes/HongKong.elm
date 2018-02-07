@@ -13,7 +13,7 @@ hongKong model =
         [ div [ class "bb b--gray w-100" ]
             [ headingComponent
                 ( "Hong Kong"
-                , "Have a look at all my posts related to Hong Kong"
+                , "Have a look at all my posts Hong Kong related"
                 , ""
                 )
             ]

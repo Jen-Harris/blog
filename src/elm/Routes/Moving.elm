@@ -20,7 +20,8 @@ moving model =
             , img [ src "./assets/skiing.png" ] []
             , p [] [ text "I also have a few concerns." ]
             , ol []
-                [ li [] [ text "Apparently living space in Hong Kong is smaller than the smallest studio apartment in London. 2 people in a shoebox? Where will we fit our king sized bed?" ]
+                [ li [] [ text "Apparently living space in Hong Kong is smaller than the smallest studio apartment in London." ]
+                , li [] [ text "What if there are no flat whites in Hong Kong?" ]
                 , li []
                     [ text "London population per sq. mile is 11,760. Hong Kong is 66,200 "
                     , span
