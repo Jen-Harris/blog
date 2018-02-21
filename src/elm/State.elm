@@ -13,7 +13,7 @@ import Types exposing (..)
 
 initModel : Model
 initModel =
-    { route = HomeRoute
+    { route = ExercisesRoute
     , userInput = ""
     , articles = articleOverviewList
     , hongKongArticles = hongKongOverviewList
@@ -48,6 +48,9 @@ getRoute hash =
 
         "#portfolio" ->
             PortfolioRoute
+
+        "#exercises" ->
+            ExercisesRoute
 
         _ ->
             HomeRoute

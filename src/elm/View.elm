@@ -6,6 +6,7 @@ import Components.Footer exposing (..)
 import Html exposing (..)
 import Html.Attributes exposing (..)
 import Routes.Design exposing (..)
+import Routes.Exercises exposing (..)
 import Routes.Founders exposing (..)
 import Routes.Home exposing (..)
 import Routes.HongKong exposing (..)
@@ -32,6 +33,9 @@ view model =
 
                 SprintRoute ->
                     sprint model
+
+                ExercisesRoute ->
+                    exercises model
 
                 FoundersRoute ->
                     founders model

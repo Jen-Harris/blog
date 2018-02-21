@@ -14,6 +14,7 @@ type Route
     | FoundersRoute
     | PortfolioRoute
     | MovingRoute
+    | ExercisesRoute
 
 
 type alias Model =

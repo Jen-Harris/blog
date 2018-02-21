@@ -35,3 +35,7 @@ button {
 #container {
   -webkit-overflow-scrolling: touch;
  }
+
+.rotate{
+  transform: rotate(90deg);
+}
