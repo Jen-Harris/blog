@@ -2,6 +2,7 @@ module State exposing (..)
 
 import Data.ArticleOverviewList exposing (..)
 import Data.DesignOverviewList exposing (..)
+import Data.FeaturedAriclesDesignList exposing (..)
 import Data.HongKongOverviewList exposing (..)
 import Dom.Scroll exposing (..)
 import Task exposing (..)
@@ -13,11 +14,12 @@ import Types exposing (..)
 
 initModel : Model
 initModel =
-    { route = HomeRoute
+    { route = DesignRoute
     , userInput = ""
     , articles = articleOverviewList
     , hongKongArticles = hongKongOverviewList
     , designArticles = designOverviewList
+    , featuredDesignArticles = featuredArticlesDesignList
     }
 
 
