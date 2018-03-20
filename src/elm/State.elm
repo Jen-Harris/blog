@@ -20,6 +20,7 @@ initModel =
     , hongKongArticles = hongKongOverviewList
     , designArticles = designOverviewList
     , featuredDesignArticles = featuredArticlesDesignList
+    , featuredArticlesFull = featuredArticlesFullList
     }
 
 
