@@ -23,11 +23,23 @@ type alias Model =
     , articles : List ArticleOverview
     , hongKongArticles : List ArticleOverview
     , designArticles : List ArticleOverview
+    , featuredDesignArticles : List FeaturedArticles
+    , featuredArticlesFull : List FeaturedArticles
     }
 
 
 
 -- Update
+
+
+type alias FeaturedArticles =
+    { post : String
+    , photo : String
+    , title : String
+    , date : String
+    , summary : String
+    , route : String
+    }
 
 
 type alias ArticleOverview =

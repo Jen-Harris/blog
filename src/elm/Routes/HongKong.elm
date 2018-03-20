@@ -10,14 +10,7 @@ import Types exposing (..)
 hongKong : Model -> Html Msg
 hongKong model =
     div []
-        [ div [ class "bb b--gray w-100" ]
-            [ headingComponent
-                ( "Hong Kong"
-                , "Have a look at all my posts Hong Kong related"
-                , ""
-                )
-            ]
-        , h2 [ class "tc  fw4" ] [ text "Articles" ]
+        [ h2 [ class "tc  fw3" ] [ text "Articles" ]
         , section []
             (List.map
                 articleOverview

@@ -13,7 +13,7 @@ navbar model =
 
 navbarLink : ( String, String ) -> Html Msg
 navbarLink ( linkStr, name ) =
-    li [ class "list dib ma3" ] [ a [ class "link dim dark-gray", href ("/#" ++ linkStr) ] [ text name ] ]
+    li [ class "list dib ma3" ] [ a [ class "link dim dark-gray f4 fw3", href ("/#" ++ linkStr) ] [ text name ] ]
 
 
 navbarContent : List (Html Msg)

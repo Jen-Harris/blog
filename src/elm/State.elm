@@ -2,6 +2,7 @@ module State exposing (..)
 
 import Data.ArticleOverviewList exposing (..)
 import Data.DesignOverviewList exposing (..)
+import Data.FeaturedAriclesDesignList exposing (..)
 import Data.HongKongOverviewList exposing (..)
 import Dom.Scroll exposing (..)
 import Task exposing (..)
@@ -18,6 +19,8 @@ initModel =
     , articles = articleOverviewList
     , hongKongArticles = hongKongOverviewList
     , designArticles = designOverviewList
+    , featuredDesignArticles = featuredArticlesDesignList
+    , featuredArticlesFull = featuredArticlesFullList
     }
 
 
