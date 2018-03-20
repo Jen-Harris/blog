@@ -17,7 +17,7 @@ hongKong model =
                 , ""
                 )
             ]
-        , h2 [ class "tc  fw4" ] [ text "Articles" ]
+        , h2 [ class "tc  fw3" ] [ text "Articles" ]
         , section []
             (List.map
                 articleOverview

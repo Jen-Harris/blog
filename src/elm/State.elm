@@ -14,7 +14,7 @@ import Types exposing (..)
 
 initModel : Model
 initModel =
-    { route = DesignRoute
+    { route = HomeRoute
     , userInput = ""
     , articles = articleOverviewList
     , hongKongArticles = hongKongOverviewList
