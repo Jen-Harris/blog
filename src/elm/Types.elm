@@ -15,6 +15,7 @@ type Route
     | PortfolioRoute
     | MovingRoute
     | ExercisesRoute
+    | FirstWeekRoute
 
 
 type alias Model =

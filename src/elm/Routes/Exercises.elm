@@ -26,7 +26,7 @@ exercises model =
                 , text "Then start questioning this problem using ‘how might we’ statements - turning the problem into an opportunity for design. "
                 ]
             , p [ class "i" ] [ text "for example:" ]
-            , img [ src "./assets/hmw.jpg", class "rotate" ] []
+            , img [ src "./assets/hmw.jpg" ] []
             , p [] [ text "It’s important to look for opportunities rather than solutions. By the end of the exercise you should be in a place to start brainstorming solutions, discussing your ideas and grouping the HMWs into themes. " ]
             , h3 [ class "b" ] [ text "User Journey Mapping" ]
             , p [] [ text "With both large and small apps it can be really difficult to understand all the interactions that a user has, the order in which they happen and where the pain points are." ]
