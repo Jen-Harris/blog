@@ -24,7 +24,14 @@ featuredArticlesDesignList =
 
 featuredArticlesFullList : List FeaturedArticles
 featuredArticlesFullList =
-    [ { post = "Design"
+    [ { post = "Hong Kong"
+      , photo = "./assets/causewayBay.png"
+      , title = "First week in Hong Kong!"
+      , date = "22.03.18"
+      , summary = "5 days in and it's looking good."
+      , route = "firstWeek"
+      }
+    , { post = "Design"
       , photo = "./assets/hmw.jpg"
       , title = "My top 3 workshop exercises"
       , date = "21.02.18"
@@ -37,5 +44,17 @@ featuredArticlesFullList =
       , date = "23.01.18"
       , summary = "It's actually happening. We're moving to Hong Kong."
       , route = "moving"
+      }
+    ]
+
+
+featuredArticlesHongKongList : List FeaturedArticles
+featuredArticlesHongKongList =
+    [ { post = "Hong Kong"
+      , photo = "./assets/causewayBay.png"
+      , title = "First week in Hong Kong!"
+      , date = "22.03.18"
+      , summary = "5 days in and it's looking good."
+      , route = "firstWeek"
       }
     ]

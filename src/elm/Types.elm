@@ -26,6 +26,7 @@ type alias Model =
     , designArticles : List ArticleOverview
     , featuredDesignArticles : List FeaturedArticles
     , featuredArticlesFull : List FeaturedArticles
+    , featuredHongKongArticles : List FeaturedArticles
     }
 
 
