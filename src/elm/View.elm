@@ -7,6 +7,7 @@ import Html exposing (..)
 import Html.Attributes exposing (..)
 import Routes.Design exposing (..)
 import Routes.Exercises exposing (..)
+import Routes.FirstWeek exposing (..)
 import Routes.Founders exposing (..)
 import Routes.Home exposing (..)
 import Routes.HongKong exposing (..)
@@ -36,6 +37,9 @@ view model =
 
                 ExercisesRoute ->
                     exercises model
+
+                FirstWeekRoute ->
+                    firstWeek model
 
                 FoundersRoute ->
                     founders model
